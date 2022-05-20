@@ -1,12 +1,17 @@
-package com.example.demo;
+package me.dreamvoid.hypixelapi;
 
 import me.dreamvoid.miraimc.api.MiraiBot;
 import me.dreamvoid.miraimc.bukkit.event.MiraiFriendMessageEvent;
 import me.dreamvoid.miraimc.bukkit.event.MiraiGroupMessageEvent;
+import net.hypixel.api.HypixelAPI;
+import net.hypixel.api.apache.ApacheHttpClient;
+import net.hypixel.api.http.HypixelHttpClient;
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import java.util.UUID;
 
 public class Main extends JavaPlugin implements Listener {
     @Override // 加载插件

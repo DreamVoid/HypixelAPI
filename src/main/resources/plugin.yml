@@ -1,7 +1,7 @@
-name: MyPlugin
-main: com.example.demo.Main
+name: HypixelAPI
+main: me.dreamvoid.hypixelapi.Main
 version: 1.0
 author: DreamVoid
-api-version: 1.16
+api-version: 1.13
 depend:
   - MiraiMC
